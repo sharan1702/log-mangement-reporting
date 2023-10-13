@@ -25,7 +25,7 @@ This project displays a way to organize, compress and rotate 3 application’s l
     > ./04_reporter.sh login 10
 
     > ./04_reporter.sh payment 10
-    
+
     > ./04_reporter.sh order 6
 
    <img width="491" alt="image" src="https://github.com/sharan1702/log-mangement-reporting/assets/99058879/6b724a33-c701-4cc8-8dd8-7017e331161e">
