@@ -12,19 +12,22 @@ This project displays a way to organize, compress and rotate 3 application’s l
 1. Clone the repository
 2. cd into the directory
 3. Permission to execute scripts:  
-    #chmod +x 0*
+    > chmod +x 0* 
 4. Run the Generator script to create some log files 
-    #./02_generator.sh login 10 
-    #./02_generator.sh payment 4
-    #./02_generator.sh order 7 
+    > ./02_generator.sh login 10
+    > ./02_generator.sh payment 4
+    > ./02_generator.sh order 7 
 5. Compress and Delete log files
-    #./03_cleaner.sh
+    > ./03_cleaner.sh
 6. Reporting
-    #./04_reporter.sh login 10
-    #./04_reporter.sh payment 10
-    #./04_reporter.sh order 6
-7. Notification to Slack
-   #./05_notifier.sh
+    > ./04_reporter.sh login 10
+    > ./04_reporter.sh payment 10
+    > ./04_reporter.sh order 6
+
+   <img width="491" alt="image" src="https://github.com/sharan1702/log-mangement-reporting/assets/99058879/6b724a33-c701-4cc8-8dd8-7017e331161e">
+
+8. Notification to Slack
+   > ./05_notifier.sh
 
    <img width="328" alt="image" src="https://github.com/sharan1702/log-mangement-reporting/assets/99058879/913f3f7e-dc15-4e7f-a07e-09491bc2061b">
 
