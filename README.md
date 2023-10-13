@@ -15,13 +15,17 @@ This project displays a way to organize, compress and rotate 3 application’s l
     > chmod +x 0* 
 4. Run the Generator script to create some log files 
     > ./02_generator.sh login 10
+
     > ./02_generator.sh payment 4
+
     > ./02_generator.sh order 7 
 5. Compress and Delete log files
     > ./03_cleaner.sh
 6. Reporting
     > ./04_reporter.sh login 10
+
     > ./04_reporter.sh payment 10
+    
     > ./04_reporter.sh order 6
 
    <img width="491" alt="image" src="https://github.com/sharan1702/log-mangement-reporting/assets/99058879/6b724a33-c701-4cc8-8dd8-7017e331161e">
