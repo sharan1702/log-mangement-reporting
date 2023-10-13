@@ -1,0 +1,12 @@
+{
+    "attachments": [
+        {
+            "fallback": "Report",
+            "color": "#0000FF",
+            "pretext": ":notebook: Logging report:",
+            "text": "Application \'login\' is unhealthy. Current log count is \'10\' :warning: \nApplication \'payment\' is unhealthy. Current log count is \'4\' :warning: \nApplication \'order\' is healthy! :white_check_mark: \n"
+        }
+    
+    ]
+}
+
